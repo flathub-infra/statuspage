@@ -32,8 +32,8 @@ params:
       category: main
 
   customTabs:
-    - name: Matrix
-      link: https://matrix.to/#/#flatpak:matrix.org
+    - name: Matrix channel
+      link: https://matrix.to/#/#flathub:matrix.org
 
   dateFormat: January 2, 2006 at 15:04 UTC
   shortDateFormat: 15:04 UTC — Jan 2
