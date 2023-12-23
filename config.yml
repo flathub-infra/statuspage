@@ -18,14 +18,11 @@ params:
     - name: API
       description: The backend service powering websites.
       category: main
-    - name: Beta website
-      description: The beta website at https://beta.flathub.org.
-      category: main
     - name: Discourse
       description: Community forums.
       category: main
     - name: CDN
-      description: Content delivery network backed by Fastly and self-hosted servers.
+      description: Content delivery network
       category: main
     - name: Build service
       description: Buildbot instance and builders.
