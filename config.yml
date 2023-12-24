@@ -44,18 +44,16 @@ params:
   incidentHistoryFormat: "none"
   disableIncidentHistory: false
   disableDarkMode: false
-  useLogo: true
-  logo: ./logo.png
+  useLargeHeaderDesign: true
   description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here. Please note that this page is updated manually.
   disableComplexCalculations: false
   incidentPostsPerPage: 10
-  brand: "#4a86cf"
   ok: "#008000"
   disrupted: "#cc4400"
   down: "#e60000"
   notice: "#24478f"
   alwaysKeepBrandColor: true
-  headerTextColor: white
+  headerTextColor: black
   googleAnalytics: UA-00000000-1
 
 # These options affect the core of cState.
