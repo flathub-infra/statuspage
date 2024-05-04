@@ -40,7 +40,6 @@ params:
   useRelativeTime: true
   skipSeconds: true
   enableLastMod: true
-  useLargeHeaderDesign: false
   incidentHistoryFormat: "none"
   disableIncidentHistory: false
   disableDarkMode: false
