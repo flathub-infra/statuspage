@@ -52,7 +52,6 @@ params:
   down: "#e60000"
   notice: "#24478f"
   alwaysKeepBrandColor: true
-  headerTextColor: black
   googleAnalytics: UA-00000000-1
 
 # These options affect the core of cState.
