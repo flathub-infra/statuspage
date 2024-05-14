@@ -27,4 +27,5 @@ affected:
 
 We are in the process of pruning the ostree repository from old builds. The
 process requires an exclusive lock of the repository, meaning that publishing
-is not going to be possible until it finishes. {{< track "2024-05-14 19:00:00" >}}
+is not going to be possible until it finishes. We will manually publish the
+outstanding builds afterwards. {{< track "2024-05-14 19:00:00" >}}
