@@ -9,7 +9,7 @@ date: 2024-05-14 10:00:00
 severity: disrupted
 
 section: issue
-informational: true
+informational: false
 pin: true
 
 affected:
