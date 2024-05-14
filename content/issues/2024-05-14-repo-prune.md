@@ -6,7 +6,7 @@ date: 2024-05-14 10:00:00
 #resolvedWhen: 
 
 # disrupted | down | notice
-severity: notice
+severity: disrupted
 
 section: issue
 informational: true
