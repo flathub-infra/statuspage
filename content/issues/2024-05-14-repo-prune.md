@@ -13,11 +13,11 @@ informational: false
 pin: true
 
 affected:
+  - Build service
 #  - Website
 #  - API
 #  - Discourse
 #  - CDN
-  - Build service
 #  - Main repository server
 ---
 
