@@ -3,7 +3,7 @@ title: Blocked publishing due to ongoing repository pruning
 date: 2024-05-14 10:00:00
 
 resolved: true
-#resolvedWhen: 2024-05-15 17:50 
+resolvedWhen: 2024-05-15 17:50 
 
 # disrupted | down | notice
 severity: disrupted
