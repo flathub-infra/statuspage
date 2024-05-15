@@ -10,20 +10,22 @@ severity: disrupted
 
 section: issue
 informational: false
-pin: true
+pin: false
 
 affected:
   - Build service
+  - Main repository server
 #  - Website
 #  - API
 #  - Discourse
 #  - CDN
-#  - Main repository server
 ---
 
 <!-- **Resolved*:** resolution message {{< track "2022-08-30 21:38:00" >}} -->
 
 <!-- **Monitoring:** update after mitigation is in place {{< track "2022-08-30 21:38:00" >}} -->
+
+The pruning process is still ongoing. It may take about 12 hours more. {{< track "2024-05-14 05:30:00" >}}
 
 We are in the process of pruning the ostree repository from old builds. The
 process requires an exclusive lock of the repository, meaning that publishing
