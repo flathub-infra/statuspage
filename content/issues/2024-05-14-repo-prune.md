@@ -2,8 +2,8 @@
 title: Blocked publishing due to ongoing repository pruning
 date: 2024-05-14 10:00:00
 
-#resolved: false
-#resolvedWhen: 
+resolved: true
+#resolvedWhen: 2024-05-15 17:50 
 
 # disrupted | down | notice
 severity: disrupted
@@ -21,9 +21,7 @@ affected:
 #  - CDN
 ---
 
-<!-- **Resolved*:** resolution message {{< track "2022-08-30 21:38:00" >}} -->
-
-<!-- **Monitoring:** update after mitigation is in place {{< track "2022-08-30 21:38:00" >}} -->
+**Resolved**: The pruning has completed, freeing almost 7TB of disk space. Affected builds have been restarted in Buildbot. {{< track "2024-05-15 17:50:00" >}}
 
 The pruning process is still ongoing. It may take about 12 hours more. {{< track "2024-05-14 05:30:00" >}}
 
