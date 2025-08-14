@@ -25,7 +25,7 @@ params:
       description: Content delivery network
       category: main
     - name: Build service
-      description: Buildbot instance and builders.
+      description: Build service
       category: main
     - name: Main repository server
       description: The main server managing uploads and acting as the backend to CDN.
