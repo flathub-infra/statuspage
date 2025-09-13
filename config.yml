@@ -44,7 +44,7 @@ params:
   disableIncidentHistory: false
   disableDarkMode: false
   useLargeHeaderDesign: true
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here. Please note that this page is updated manually.
+  description: Please note that this page is updated manually. Notices regarding major interruptions or scheduled maintenance will be posted here.
   disableComplexCalculations: false
   incidentPostsPerPage: 10
   ok: "#008000"
