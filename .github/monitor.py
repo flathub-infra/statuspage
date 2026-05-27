@@ -40,7 +40,7 @@ def has_unresolved_manual_issue() -> bool:
         return False
 
     for path in ISSUES_DIR.glob("*.md"):
-        if path.name.startswith(FILE_PREFIX):
+        if path.name.startswith(FILE_PREFIX) or path.name.endswith("github-notice.md"):
             continue
 
         if re.search(r"^resolved:\s*false\s*$", path.read_text(), flags=re.MULTILINE):
