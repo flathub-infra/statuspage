@@ -12,6 +12,34 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  lint:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      # 6.0.2
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          persist-credentials: false
+
+      - name: Set up ruff
+        # 4.0.0
+        uses: astral-sh/ruff-action@0ce1b0bf8b818ef400413f810f8a11cdbda0034b
+        with:
+          version: "0.15.4"
+          # x86_64-unknown-linux-gnu
+          # https://github.com/astral-sh/versions/blob/c3b47971f2f0efafdc9bcd55a596ecc029b062e0/v1/ruff.ndjson#L11
+          checksum: "6e24501f753416bc84456383ccf62239889ab9fec8318549db9bee791612bd85"
+          args: "--version"
+
+      - name: Format with ruff
+        run: |
+          ruff format --check --diff
+
+      - name: Lint with ruff
+        run: |
+          ruff check --output-format=github
+
   build:
     runs-on: ubuntu-latest
     permissions:
