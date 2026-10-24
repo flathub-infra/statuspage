@@ -21,7 +21,6 @@ SERVICES: dict[str, str] = {
     "Main repository server": "https://hub.flathub.org/status",
     "Website": "https://flathub.org",
     "API": "https://flathub.org/api/v2/status",
-    "Discourse": "https://discourse.flathub.org/about.json",
     "CDN": "https://dl.flathub.org/repo/logo.svg",
 }
 

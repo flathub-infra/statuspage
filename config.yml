@@ -18,9 +18,6 @@ params:
     - name: API
       description: The backend service powering websites.
       category: main
-    - name: Discourse
-      description: Community forums.
-      category: main
     - name: CDN
       description: Content delivery network
       category: main
